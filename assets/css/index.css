@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+header {
+    flex-grow: 0;
+    flex-basis: auto;
+}
+
+main {
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+footer {
+    flex-grow: 0;
+    flex-basis: 100%;
+}
